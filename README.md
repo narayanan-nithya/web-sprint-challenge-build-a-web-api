@@ -84,7 +84,7 @@ Inside `api/actions/actions-router.js` build endpoints for performing CRUD opera
 
 #### Middleware functions
 
-- [ ] Write at least two middleware functions for this API, and consume them in the proper places of your code.
+- [ x] Write at least two middleware functions for this API, and consume them in the proper places of your code.
 
 ### Database Schemas
 
@@ -137,17 +137,42 @@ We have provided test data for all the resources.
 
 ## Submission format
 
-- [ ] Submit via Codegrade by pushing commits to your `main` branch.
-- [ ] Check Codegrade before the deadline to compare its results against your local tests.
-- [ ] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
-- [ ] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
+- [x ] Submit via Codegrade by pushing commits to your `main` branch.
+- [ x] Check Codegrade before the deadline to compare its results against your local tests.
+- [ x] Check Codegrade on the days following the Sprint Challenge for reviewer feedback.
+- [ x] New commits will be evaluated by Codegrade if pushed _before_ the sprint challenge deadline.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+  - # Node.js
+    - Used to build front-end and back-end web application
+    - It is not a web framework
+    - Used for server -side and networking applications.
+  - # Express
+    - It is a node.js framework for building backend of the web application
+    - Building server side applications
+    - Framework for Node.js
+
 1. Understand and explain the use of Middleware.
+
+  - Middlewares are set of functions that extend the software. There are 3 types of middlewares namely Built-in, Third-Party and Custom Middleware. 
+
 1. The basic principles of the REST architectural style.
+
+  - REST is an architectural style built of 5 principles. It lets us use the 'Web' in a simple way.
+    - It uses standard unified methods like GET, POST, PUT, DELETE.
+    - Every feature is a resource
+    - Each resource has a unique Id
+    - Communication is done by Representation(Request & Response)
+    - Stateless HTTP Protocol meaning each request is independent. 
+
 1. Understand and explain the use of Express Routers.
+
+  - Express is Node.js framework and it lets us build single-page, multiple page applications and also can be used in backend to provide API for a client. 
+
 1. Describe tooling used to manually test the correctness of an API.
+
+  - We can use HTTPie or Postman to validate and verify our API requests. 
