@@ -3,7 +3,7 @@
 const express = require('express');
 
 const Actions= require('./actions-model');
-const { checkActionId, checkAction } = require('./actions-middleware');
+const { checkActionId, checkAction } = require('./actions-middlware');
 
 const router = express.Router();
 
